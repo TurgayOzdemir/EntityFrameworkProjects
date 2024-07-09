@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ASP Project\\EntityFramework\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A66B562-FFF0-4554-A325-A96BD3DE6C8D}|Section02.DatabaseFirst.Scaffold\\Section02.DatabaseFirst.Scaffold.csproj|d:\\asp project\\entityframework\\section02.databasefirst.scaffold\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A66B562-FFF0-4554-A325-A96BD3DE6C8D}|Section02.DatabaseFirst.Scaffold\\Section02.DatabaseFirst.Scaffold.csproj|solutionrelative:section02.databasefirst.scaffold\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A66B562-FFF0-4554-A325-A96BD3DE6C8D}|Section02.DatabaseFirst.Scaffold\\Section02.DatabaseFirst.Scaffold.csproj|d:\\asp project\\entityframework\\section02.databasefirst.scaffold\\models\\udemyefcoredatabasefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A66B562-FFF0-4554-A325-A96BD3DE6C8D}|Section02.DatabaseFirst.Scaffold\\Section02.DatabaseFirst.Scaffold.csproj|solutionrelative:section02.databasefirst.scaffold\\models\\udemyefcoredatabasefirstdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|d:\\asp project\\entityframework\\section02.databasefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|solutionrelative:section02.databasefirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UdemyEfcoreDatabaseFirstDbContext.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst.Scaffold\\Models\\UdemyEfcoreDatabaseFirstDbContext.cs",
+              "RelativeDocumentMoniker": "Section02.DatabaseFirst.Scaffold\\Models\\UdemyEfcoreDatabaseFirstDbContext.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst.Scaffold\\Models\\UdemyEfcoreDatabaseFirstDbContext.cs",
+              "RelativeToolTip": "Section02.DatabaseFirst.Scaffold\\Models\\UdemyEfcoreDatabaseFirstDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:06:18.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\appsettings.json",
+              "RelativeDocumentMoniker": "Section02.DatabaseFirst\\appsettings.json",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\appsettings.json",
+              "RelativeToolTip": "Section02.DatabaseFirst\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAADpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-09T14:02:26.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst.Scaffold\\Program.cs",
+              "RelativeDocumentMoniker": "Section02.DatabaseFirst.Scaffold\\Program.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst.Scaffold\\Program.cs",
+              "RelativeToolTip": "Section02.DatabaseFirst.Scaffold\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:00:23.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
