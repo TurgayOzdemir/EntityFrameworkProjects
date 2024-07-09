@@ -21,8 +21,9 @@ namespace Section02.DatabaseFirst.DAL
 
             Configuration = builder.Build();
 
-            OptionsBuilder = new DbContextOptionsBuilder<AppDbContext> ();
-            OptionsBuilder.UseSqlServer(Configuration.GetConnectionString("SqlCon"));
+            //Burayı AppDbContext'deki OnConfiguring metodunun içine yazdık
+            //OptionsBuilder = new DbContextOptionsBuilder<AppDbContext> ();
+            //OptionsBuilder.UseSqlServer(Configuration.GetConnectionString("SqlCon"));
         }
     }
 }
