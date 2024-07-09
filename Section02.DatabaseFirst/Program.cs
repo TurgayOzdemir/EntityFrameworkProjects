@@ -2,7 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Section02.DatabaseFirst.DAL;
 
-using (var _context = new AppDbContext())
+DbContextInitializer.Build();
+
+using (var _context = new AppDbContext(DbContextInitializer.OptionsBuilder.Options))
 {
     var products = await _context.Products.ToListAsync();
 

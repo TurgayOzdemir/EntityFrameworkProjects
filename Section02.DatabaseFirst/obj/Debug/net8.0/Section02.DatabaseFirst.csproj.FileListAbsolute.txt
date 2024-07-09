@@ -61,3 +61,10 @@ D:\ASP Project\EntityFramework\Section02.DatabaseFirst\obj\Debug\net8.0\refint\S
 D:\ASP Project\EntityFramework\Section02.DatabaseFirst\obj\Debug\net8.0\Section02.DatabaseFirst.pdb
 D:\ASP Project\EntityFramework\Section02.DatabaseFirst\obj\Debug\net8.0\Section02.DatabaseFirst.genruntimeconfig.cache
 D:\ASP Project\EntityFramework\Section02.DatabaseFirst\obj\Debug\net8.0\ref\Section02.DatabaseFirst.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\ASP Project\EntityFramework\Section02.DatabaseFirst\bin\Debug\net8.0\appsettings.json

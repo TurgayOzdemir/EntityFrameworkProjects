@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\ASP Project\\EntityFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|d:\\asp project\\entityframework\\section02.databasefirst\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|solutionrelative:section02.databasefirst\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|d:\\asp project\\entityframework\\section02.databasefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|solutionrelative:section02.databasefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|d:\\asp project\\entityframework\\section02.databasefirst\\dal\\dbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|solutionrelative:section02.databasefirst\\dal\\dbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|d:\\asp project\\entityframework\\section02.databasefirst\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|solutionrelative:section02.databasefirst\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|d:\\asp project\\entityframework\\section02.databasefirst\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155AB947-FE9E-4C3E-ACF7-0AA1E20CE914}|Section02.DatabaseFirst\\Section02.DatabaseFirst.csproj|solutionrelative:section02.databasefirst\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContextInitializer.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\DAL\\DbContextInitializer.cs",
+              "RelativeDocumentMoniker": "Section02.DatabaseFirst\\DAL\\DbContextInitializer.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\DAL\\DbContextInitializer.cs",
+              "RelativeToolTip": "Section02.DatabaseFirst\\DAL\\DbContextInitializer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T13:32:39.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T13:17:35.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\Program.cs",
+              "RelativeDocumentMoniker": "Section02.DatabaseFirst\\Program.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\Program.cs",
+              "RelativeToolTip": "Section02.DatabaseFirst\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T13:15:07.855Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -35,32 +78,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T13:19:26.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "Section02.DatabaseFirst\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T13:17:35.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\Program.cs",
-              "RelativeDocumentMoniker": "Section02.DatabaseFirst\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section02.DatabaseFirst\\Program.cs",
-              "RelativeToolTip": "Section02.DatabaseFirst\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T13:15:07.855Z",
               "EditorCaption": ""
             }
           ]
