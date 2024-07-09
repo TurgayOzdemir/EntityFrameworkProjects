@@ -11,6 +11,6 @@ using (var _context = new AppDbContext())
 
     products.ForEach(p =>
     {
-        Console.WriteLine($"{p.Id} : {p.Name}");
+        Console.WriteLine($"{p.Id} : {p.Name} / {p.Price} / {p.Stock}");
     });
 }
