@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Section03.CodeFirst.DAL;
 
+// add-migration initial => Migration oluşturur
+// update-database => Migration'ı database'e uygular.
+
 Initializer.Build();
 
 using (var _context = new AppDbContext())

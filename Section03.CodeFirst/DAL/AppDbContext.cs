@@ -14,6 +14,7 @@ namespace Section03.CodeFirst.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            Initializer.Build();
             optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"));
         }
 
