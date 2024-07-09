@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\ASP Project\\EntityFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Migrations\\20240709183653_UpdateBarcode_ForProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Section03.CodeFirst\\Migrations\\20240709183653_UpdateBarcode_ForProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|d:\\asp project\\entityframework\\section03.codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|solutionrelative:section03.codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|d:\\asp project\\entityframework\\section03.codefirst\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|solutionrelative:section03.codefirst\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Migrations\\20240709183513_AddBarcode_ForProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Section03.CodeFirst\\Migrations\\20240709183513_AddBarcode_ForProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|d:\\asp project\\entityframework\\section03.codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|solutionrelative:section03.codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D083CD77-0E49-4AA8-A4DE-6E7BDE9F9B22}|Section03.CodeFirst\\Section03.CodeFirst.csproj|d:\\asp project\\entityframework\\section03.codefirst\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,34 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240709183653_UpdateBarcode_ForProduct.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Migrations\\20240709183653_UpdateBarcode_ForProduct.cs",
-              "RelativeDocumentMoniker": "Section03.CodeFirst\\Migrations\\20240709183653_UpdateBarcode_ForProduct.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Migrations\\20240709183653_UpdateBarcode_ForProduct.cs",
-              "RelativeToolTip": "Section03.CodeFirst\\Migrations\\20240709183653_UpdateBarcode_ForProduct.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T18:36:53.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240709183513_AddBarcode_ForProduct.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Migrations\\20240709183513_AddBarcode_ForProduct.cs",
-              "RelativeDocumentMoniker": "Section03.CodeFirst\\Migrations\\20240709183513_AddBarcode_ForProduct.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Migrations\\20240709183513_AddBarcode_ForProduct.cs",
-              "RelativeToolTip": "Section03.CodeFirst\\Migrations\\20240709183513_AddBarcode_ForProduct.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T18:35:14.142Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -68,25 +34,24 @@
               "RelativeToolTip": "Section03.CodeFirst\\DAL\\Product.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T18:34:57.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T18:34:57.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Program.cs",
               "RelativeDocumentMoniker": "Section03.CodeFirst\\Program.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\Program.cs",
               "RelativeToolTip": "Section03.CodeFirst\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T15:00:54.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section03.CodeFirst\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Section03.CodeFirst\\DAL\\AppDbContext.cs",
@@ -94,8 +59,7 @@
               "RelativeToolTip": "Section03.CodeFirst\\DAL\\AppDbContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAWwBAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T14:40:57.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T14:40:57.157Z"
             }
           ]
         }
