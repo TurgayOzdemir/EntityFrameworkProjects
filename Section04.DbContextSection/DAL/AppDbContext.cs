@@ -18,6 +18,18 @@ namespace Section04.DbContextSection.DAL
             optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"));
         }
 
+
+        //Tablo oluşurkenki özellikleri bu metod ile override ediyoruz
+        //OnModelCreating Default özelliklerden uzaklaşmışsak DataAnnotationsa göre best practise
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<Product>().ToTable("ProductTBB","productstbb"); // Tablo ve şema adı değişimi
+            modelBuilder.Entity<Product>().HasKey(p => p.Id); // Primary key belirleme
+
+            base.OnModelCreating(modelBuilder);
+        }
+
+        /*
         public override int SaveChanges()
         {
             ChangeTracker.Entries().ToList().ForEach(e =>
@@ -33,6 +45,7 @@ namespace Section04.DbContextSection.DAL
 
             return base.SaveChanges();
         }
+        */
 
     }
 }

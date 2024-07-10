@@ -37,7 +37,9 @@ namespace Section04.DbContextSection.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Name2")
+                        .HasColumnOrder(3);
 
                     b.Property<decimal?>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -47,7 +49,7 @@ namespace Section04.DbContextSection.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("ProductTB", "products");
                 });
 #pragma warning restore 612, 618
         }

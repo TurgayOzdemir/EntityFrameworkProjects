@@ -7,6 +7,16 @@ Initializer.Build();
 using (var _context = new AppDbContext())
 {
 
+
+
+
+
+
+    //-------------------------------------
+
+
+
+    /*
     //İlk datayı döner. Eğer yoksa exception fırlatır.
     var product1 = _context.Products.First(x => x.Id == 3);
 
@@ -24,8 +34,12 @@ using (var _context = new AppDbContext())
 
     //Primary key ile datayı çekeriz
     var product6 = _context.Products.Find(5);
+    */
+
+
 
     //-------------------------------------
+
 
 
     /*
