@@ -7,6 +7,28 @@ Initializer.Build();
 using (var _context = new AppDbContext())
 {
 
+    //İlk datayı döner. Eğer yoksa exception fırlatır.
+    var product1 = _context.Products.First(x => x.Id == 3);
+
+    //İlk datayı döner. Eğer yoksa null döner
+    var product2 = _context.Products.FirstOrDefault(x => x.Id == 3); //2. parametrede null olma durumunda obje ekleyebiliyoruz
+
+    //Birden fazla data gelirse exception fırlatır. Tek bir data varsa o datayı çeker
+    var product3 = _context.Products.Single(x => x.Id > 3);
+
+    //Birden fazla data gelirse null fırlatır. Tek bir data varsa o datayı çeker
+    var product4 = _context.Products.SingleOrDefault(x => x.Id > 3);
+
+    //Koşulu sağlayan datalar liste şeklinde döner
+    var product5 = _context.Products.Where(x => x.Id == 3).ToList();
+
+    //Primary key ile datayı çekeriz
+    var product6 = _context.Products.Find(5);
+
+    //-------------------------------------
+
+
+    /*
     //SaveChanges() metodunu AppDbContexte override ettik.
     //SaveChanges() çağrıldığında Product'ın CreatedDate'i atanıyor database'e yansıtılıyor.
     _context.Products.Add(new() { Name = "Şapka", Price = 500, Stock = 1, Barcode = 4 });
@@ -16,6 +38,7 @@ using (var _context = new AppDbContext())
     Console.WriteLine("Context ID: " + _context.ContextId);
 
     _context.SaveChanges();
+    */
 
 
 
