@@ -15,7 +15,11 @@ namespace Section04.DbContextSection.DAL
         public int Id { get; set; }
 
         [Column("Name2", TypeName = "nvarchar(50)", Order =3)] // Sütun özelliklerini DataAnnotation yoluyla verilme şekli bu şekilde.
+        //[MaxLength(100)] //Max uzunluk belirtmek için kullanılır.
+        [StringLength(100, MinimumLength =10)] // en düşük değeri de belirtilişi bu şekilde. İkisi de aynı olursa sabit değer alabiliriz. TC gibi
         public string? Name { get; set; }
+
+        [Required] // Validation için kullanılıyor.
         public decimal? Price { get; set; }
         public DateTime? CreatedDate { get; set; }
         public int? Stock { get; set; }

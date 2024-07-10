@@ -25,6 +25,9 @@ namespace Section04.DbContextSection.DAL
         {
             //modelBuilder.Entity<Product>().ToTable("ProductTBB","productstbb"); // Tablo ve şema adı değişimi
             modelBuilder.Entity<Product>().HasKey(p => p.Id); // Primary key belirleme
+            modelBuilder.Entity<Product>().Property(x => x.Name).IsRequired();//Column'ı Required işaretler
+            modelBuilder.Entity<Product>().Property(x => x.Name).HasMaxLength(100);//Max uzunluğu belirler
+            modelBuilder.Entity<Product>().Property(x => x.Name).HasMaxLength(11).IsFixedLength();//sabit karakter uzunluğunda olmasını sağlar. Tc gibi
 
             base.OnModelCreating(modelBuilder);
         }
