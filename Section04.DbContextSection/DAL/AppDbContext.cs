@@ -18,5 +18,21 @@ namespace Section04.DbContextSection.DAL
             optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"));
         }
 
+        public override int SaveChanges()
+        {
+            ChangeTracker.Entries().ToList().ForEach(e =>
+            {
+                if (e.Entity is Product p) // Data Product ise
+                {
+                    if (e.State == EntityState.Added)
+                    {
+                        p.CreatedDate = DateTime.Now;
+                    }
+                }
+            });
+
+            return base.SaveChanges();
+        }
+
     }
 }
