@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\ASP Project\\EntityFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Migrations\\20240711080557_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Section05.Relationships\\Migrations\\20240711080557_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Migrations\\20240711094526_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Section05.Relationships\\Migrations\\20240711094526_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|d:\\asp project\\entityframework\\section05.relationships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6B76DF-2343-46B9-8186-CEC8FC0B38CA}|Section05.Relationships\\Section05.Relationships.csproj|solutionrelative:section05.relationships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240711080557_Initial.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Migrations\\20240711080557_Initial.cs",
-              "RelativeDocumentMoniker": "Section05.Relationships\\Migrations\\20240711080557_Initial.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Migrations\\20240711080557_Initial.cs",
-              "RelativeToolTip": "Section05.Relationships\\Migrations\\20240711080557_Initial.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Title": "20240711094526_Initial.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Migrations\\20240711094526_Initial.cs",
+              "RelativeDocumentMoniker": "Section05.Relationships\\Migrations\\20240711094526_Initial.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Migrations\\20240711094526_Initial.cs",
+              "RelativeToolTip": "Section05.Relationships\\Migrations\\20240711094526_Initial.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:05:57.569Z",
+              "WhenOpened": "2024-07-11T09:45:26.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductFeature.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\DAL\\ProductFeature.cs",
+              "RelativeDocumentMoniker": "Section05.Relationships\\DAL\\ProductFeature.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\DAL\\ProductFeature.cs",
+              "RelativeToolTip": "Section05.Relationships\\DAL\\ProductFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:41:16.504Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +70,7 @@
               "RelativeDocumentMoniker": "Section05.Relationships\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section05.Relationships\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABHAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAACRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T08:02:01.353Z",
               "EditorCaption": ""
@@ -66,27 +83,27 @@
               "RelativeDocumentMoniker": "Section05.Relationships\\DAL\\Category.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\DAL\\Category.cs",
               "RelativeToolTip": "Section05.Relationships\\DAL\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T07:53:25.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\DAL\\Product.cs",
               "RelativeDocumentMoniker": "Section05.Relationships\\DAL\\Product.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\DAL\\Product.cs",
               "RelativeToolTip": "Section05.Relationships\\DAL\\Product.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAZAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T07:26:12.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section05.Relationships\\Program.cs",
               "RelativeDocumentMoniker": "Section05.Relationships\\Program.cs",
