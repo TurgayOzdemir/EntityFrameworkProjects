@@ -3,6 +3,45 @@ using Section05.Relationships.DAL;
 
 using (var _context = new AppDbContext())
 {
+    _context.Products.Add(new() { Name = "Kalem", Barcode = 123, Price = 100, Stock = 3, Kdv = 20});
+    _context.SaveChanges();
+
+
+
+    //------------------------------------------
+
+
+    /*
+    var category = _context.Categories.First(x => x.Name == "Kalemler");
+
+    //var products = _context.Products.Where(x => x.CategoryId == category.Id).ToList();
+
+    //_context.RemoveRange(products);
+    _context.Categories.Remove(category);
+    _context.SaveChanges();
+    */
+
+    /*
+    var category = new Category()
+    {
+        Name = "Kalemler",
+        Products = new List<Product>()
+        {
+            new Product() {Name = "Kalem 1", Price=100, Stock = 200, Barcode = 123},
+            new Product() {Name = "Kalem 2", Price=100, Stock = 200, Barcode = 123},
+            new Product() {Name = "Kalem 3", Price=100, Stock = 200, Barcode = 123}
+        }
+    };
+    _context.Add(category);
+    _context.SaveChanges();
+    */
+
+
+    //------------------------------------------
+
+
+
+    /*
     var teacher = _context.Teachers.First(x => x.Name == "Kerim");
 
     teacher.Students.AddRange(new[] {
@@ -11,6 +50,8 @@ using (var _context = new AppDbContext())
     }); 
 
     _context.SaveChanges();
+    */
+
 
     /*
     var teacher = new Teacher() { Name = "Kerim", Students = new List<Student>() { 
