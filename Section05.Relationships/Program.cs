@@ -3,7 +3,41 @@ using Section05.Relationships.DAL;
 
 using (var _context = new AppDbContext())
 {
+    var teacher = _context.Teachers.First(x => x.Name == "Kerim");
 
+    teacher.Students.AddRange(new[] {
+        new Student {  Name ="Turgi", Age = 24},
+        new Student {  Name ="Onur", Age = 23},
+    }); 
+
+    _context.SaveChanges();
+
+    /*
+    var teacher = new Teacher() { Name = "Kerim", Students = new List<Student>() { 
+                                                                new Student { Name = "Ayşe", Age = 22},
+                                                                new Student { Name = "Fatma", Age = 25}
+                                                                } 
+    };
+
+    _context.Teachers.Add(teacher);
+    _context.SaveChanges();
+    */
+
+    /*
+    var student = new Student() { Name = "Ahmet", Age = 23 };
+
+    student.Teachers.Add(new Teacher() { Name = "Mehmet" });
+    student.Teachers.Add(new Teacher() { Name = "Mustafa" });
+
+    _context.Add(student);
+    _context.SaveChanges();
+    */
+
+
+    //------------------------------------------
+
+
+    /*
     //Product -> Parent
     //ProductFeature -> Childed
 
@@ -24,6 +58,9 @@ using (var _context = new AppDbContext())
     //_context.Products.Add(product2);
 
     _context.SaveChanges();
+    */
+
+
 
     //------------------------------------------
 
@@ -47,6 +84,7 @@ using (var _context = new AppDbContext())
     //category.Products.Add(product);
 
     //_context.SaveChanges();
+
 
     //------------------------------------------
 

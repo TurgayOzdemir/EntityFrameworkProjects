@@ -10,12 +10,12 @@ namespace Section05.Relationships.DAL
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<ProductFeature> ProductFeature { get; set; }
+        //public DbSet<Product> Products { get; set; }
+        //public DbSet<Category> Categories { get; set; }
+        //public DbSet<ProductFeature> ProductFeature { get; set; }
 
-        //public DbSet<Teacher> Teachers { get; set; }
-        //public DbSet<Student> Students { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Student> Students { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -48,7 +48,7 @@ namespace Section05.Relationships.DAL
                                                         );
             */
 
-            modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.Id);
+            //modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.Id);
 
             base.OnModelCreating(modelBuilder);
         }
