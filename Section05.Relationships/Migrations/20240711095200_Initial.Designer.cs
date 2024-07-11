@@ -11,7 +11,7 @@ using Section05.Relationships.DAL;
 namespace Section05.Relationships.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240711094526_Initial")]
+    [Migration("20240711095200_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -70,10 +70,7 @@ namespace Section05.Relationships.Migrations
             modelBuilder.Entity("Section05.Relationships.DAL.ProductFeature", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Color")
                         .IsRequired()
@@ -82,16 +79,10 @@ namespace Section05.Relationships.Migrations
                     b.Property<int>("Height")
                         .HasColumnType("int");
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Width")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId")
-                        .IsUnique();
 
                     b.ToTable("ProductFeature");
                 });
@@ -100,7 +91,7 @@ namespace Section05.Relationships.Migrations
                 {
                     b.HasOne("Section05.Relationships.DAL.Product", "Product")
                         .WithOne("ProductFeature")
-                        .HasForeignKey("Section05.Relationships.DAL.ProductFeature", "ProductId")
+                        .HasForeignKey("Section05.Relationships.DAL.ProductFeature", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

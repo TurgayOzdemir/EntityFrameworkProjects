@@ -21,10 +21,13 @@ namespace Section05.Relationships.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //One-To-Many
             //Her zaman Has ile başlanacak ardından With kullanacağız.
             //modelBuilder.Entity<Category>().HasMany(x => x.Products).WithOne(x => x.Category).HasForeignKey(x => x.CategoryId);
 
-            modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.ProductId);
+            //One-To-One
+            //modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.ProductId);
+            modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.Id);
 
             base.OnModelCreating(modelBuilder);
         }
