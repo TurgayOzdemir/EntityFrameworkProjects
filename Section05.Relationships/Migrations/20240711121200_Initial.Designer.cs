@@ -11,7 +11,7 @@ using Section05.Relationships.DAL;
 namespace Section05.Relationships.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240711111110_Initial")]
+    [Migration("20240711121200_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -72,6 +72,26 @@ namespace Section05.Relationships.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("Section05.Relationships.DAL.ProductFeature", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Height")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Width")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductFeature");
+                });
+
             modelBuilder.Entity("Section05.Relationships.DAL.Product", b =>
                 {
                     b.HasOne("Section05.Relationships.DAL.Category", "Category")
@@ -83,9 +103,26 @@ namespace Section05.Relationships.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("Section05.Relationships.DAL.ProductFeature", b =>
+                {
+                    b.HasOne("Section05.Relationships.DAL.Product", "Product")
+                        .WithOne("ProductFeature")
+                        .HasForeignKey("Section05.Relationships.DAL.ProductFeature", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("Section05.Relationships.DAL.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Section05.Relationships.DAL.Product", b =>
+                {
+                    b.Navigation("ProductFeature")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
