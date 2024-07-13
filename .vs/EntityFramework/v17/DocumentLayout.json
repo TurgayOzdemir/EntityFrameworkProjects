@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|solutionrelative:section06.relateddataload\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|d:\\asp project\\entityframework\\section06.relateddataload\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|solutionrelative:section06.relateddataload\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|d:\\asp project\\entityframework\\section06.relateddataload\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|solutionrelative:section06.relateddataload\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|d:\\asp project\\entityframework\\section06.relateddataload\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|solutionrelative:section06.relateddataload\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|d:\\asp project\\entityframework\\section06.relateddataload\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F56AE92-40DF-41A2-A624-8864262EC5B4}|Section06.RelatedDataLoad\\Section06.RelatedDataLoad.csproj|solutionrelative:section06.relateddataload\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,40 +44,40 @@
               "RelativeDocumentMoniker": "Section06.RelatedDataLoad\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section06.RelatedDataLoad\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAlAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T12:03:04.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductFeature.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\ProductFeature.cs",
               "RelativeDocumentMoniker": "Section06.RelatedDataLoad\\DAL\\ProductFeature.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\ProductFeature.cs",
               "RelativeToolTip": "Section06.RelatedDataLoad\\DAL\\ProductFeature.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:45:48.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\Product.cs",
               "RelativeDocumentMoniker": "Section06.RelatedDataLoad\\DAL\\Product.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\Product.cs",
               "RelativeToolTip": "Section06.RelatedDataLoad\\DAL\\Product.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABAAAAAKAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:45:43.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Initializer.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\Initializer.cs",
               "RelativeDocumentMoniker": "Section06.RelatedDataLoad\\DAL\\Initializer.cs",
@@ -90,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\Category.cs",
               "RelativeDocumentMoniker": "Section06.RelatedDataLoad\\DAL\\Category.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\DAL\\Category.cs",
               "RelativeToolTip": "Section06.RelatedDataLoad\\DAL\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:45:32.19Z",
               "EditorCaption": ""
@@ -109,7 +109,7 @@
               "RelativeDocumentMoniker": "Section06.RelatedDataLoad\\Program.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section06.RelatedDataLoad\\Program.cs",
               "RelativeToolTip": "Section06.RelatedDataLoad\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T11:42:08.43Z",
               "EditorCaption": ""

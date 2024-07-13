@@ -5,7 +5,24 @@ using Section06.RelatedDataLoad.DAL;
 
 using (var _context = new AppDbContext())
 {
+    //Lazy Loading -> Microsoft.EntityFrameworkCore.Proxies
 
+    var category = await _context.Categories.FirstAsync();
+
+    var products = category.Products;
+
+    //Her döngüde sorgu yapıyor. O yüzden dikkatli kullanmak lazım. performans açısından sıkıntı olabilir.
+    //DDD için faydalı olabilir.
+    foreach (var product in products)
+    {
+        var productFeature = product.ProductFeature;
+    }
+    
+
+    //-----------------------------------
+
+
+    /*
     //Explicit Loading
     var category = _context.Categories.First();
 
@@ -27,6 +44,7 @@ using (var _context = new AppDbContext())
     {
         _context.Entry(product).Reference(x => x.ProductFeature).Load();
     }
+    */
 
 
 
