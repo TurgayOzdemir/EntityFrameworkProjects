@@ -11,7 +11,7 @@ using Section07.Inheritance.DAL;
 namespace Section07.Inheritance.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240713151251_Initial")]
+    [Migration("20240713152653_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -35,11 +35,6 @@ namespace Section07.Inheritance.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(13)
-                        .HasColumnType("nvarchar(13)");
-
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -50,11 +45,9 @@ namespace Section07.Inheritance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Persons");
+                    b.ToTable("Persons", (string)null);
 
-                    b.HasDiscriminator().HasValue("BasePerson");
-
-                    b.UseTphMappingStrategy();
+                    b.UseTptMappingStrategy();
                 });
 
             modelBuilder.Entity("Section07.Inheritance.DAL.Employee", b =>
@@ -65,7 +58,7 @@ namespace Section07.Inheritance.Migrations
                         .HasPrecision(8, 2)
                         .HasColumnType("decimal(8,2)");
 
-                    b.HasDiscriminator().HasValue("Employee");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("Section07.Inheritance.DAL.Manager", b =>
@@ -75,7 +68,25 @@ namespace Section07.Inheritance.Migrations
                     b.Property<int>("Grade")
                         .HasColumnType("int");
 
-                    b.HasDiscriminator().HasValue("Manager");
+                    b.ToTable("Managers", (string)null);
+                });
+
+            modelBuilder.Entity("Section07.Inheritance.DAL.Employee", b =>
+                {
+                    b.HasOne("Section07.Inheritance.DAL.BasePerson", null)
+                        .WithOne()
+                        .HasForeignKey("Section07.Inheritance.DAL.Employee", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Section07.Inheritance.DAL.Manager", b =>
+                {
+                    b.HasOne("Section07.Inheritance.DAL.BasePerson", null)
+                        .WithOne()
+                        .HasForeignKey("Section07.Inheritance.DAL.Manager", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
