@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\ASP Project\\EntityFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\productfull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\productfull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|d:\\asp project\\entityframework\\section08.modelsection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C837548-9182-48DB-93BC-B2DECA3CC5B1}|Section08.ModelSection\\Section08.ModelSection.csproj|solutionrelative:section08.modelsection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\Program.cs",
-              "RelativeDocumentMoniker": "Section08.ModelSection\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\Program.cs",
-              "RelativeToolTip": "Section08.ModelSection\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T15:46:28.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Manager.cs",
-              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\Manager.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Manager.cs",
-              "RelativeToolTip": "Section08.ModelSection\\DAL\\Manager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T15:43:27.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Initializer.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Initializer.cs",
-              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\Initializer.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Initializer.cs",
-              "RelativeToolTip": "Section08.ModelSection\\DAL\\Initializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T15:43:22.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Employee.cs",
-              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\Employee.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Employee.cs",
-              "RelativeToolTip": "Section08.ModelSection\\DAL\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T15:43:17.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Person.cs",
-              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\Person.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Person.cs",
-              "RelativeToolTip": "Section08.ModelSection\\DAL\\Person.cs",
+              "Title": "ProductFull.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\ProductFull.cs",
+              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\ProductFull.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\ProductFull.cs",
+              "RelativeToolTip": "Section08.ModelSection\\DAL\\ProductFull.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T15:43:13.509Z",
+              "WhenOpened": "2024-07-14T09:19:14.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\Program.cs",
+              "RelativeDocumentMoniker": "Section08.ModelSection\\Program.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\Program.cs",
+              "RelativeToolTip": "Section08.ModelSection\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T09:08:17.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Category.cs",
+              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\Category.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Category.cs",
+              "RelativeToolTip": "Section08.ModelSection\\DAL\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:55:17.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Product.cs",
+              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\Product.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\Product.cs",
+              "RelativeToolTip": "Section08.ModelSection\\DAL\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:55:11.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductFeature.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\ProductFeature.cs",
+              "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\ProductFeature.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\ProductFeature.cs",
+              "RelativeToolTip": "Section08.ModelSection\\DAL\\ProductFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:54:55.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Section08.ModelSection\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section08.ModelSection\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section08.ModelSection\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAA9AAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwCYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T15:42:59.868Z",
               "EditorCaption": ""
