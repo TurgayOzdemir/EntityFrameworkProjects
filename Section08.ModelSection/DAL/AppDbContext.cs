@@ -26,10 +26,20 @@ namespace Section08.ModelSection.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Product>().HasIndex(x => x.Name);
+            modelBuilder.Entity<Product>().HasIndex(x => new {x.Name, x.Url});
+            modelBuilder.Entity<Product>().HasIndex(x => x.Name).IncludeProperties(x => new {x.Price, x.Stock});
 
+
+
+            //-----------------------------------------------------
+
+            /*
             modelBuilder.Entity<Product>().Ignore(x => x.Barcode);
             modelBuilder.Entity<Product>().Property(x => x.Name).IsUnicode(false);
             modelBuilder.Entity<Product>().Property(x => x.Url).HasColumnType("varchar(200)");
+            */
+
 
             //----------------------------------------------------
 

@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 
 namespace Section08.ModelSection.DAL
 {
+    //Bir tane tanımlarsak Index, birden fazla tanımlarsak Composite Index deniyor.
+    //[Index(nameof(Name), nameof(Price))]
+    //[Index(nameof(Name))]
+    //[Index(nameof(Name))]
     public class Product
     {
         public int Id { get; set; }

@@ -11,7 +11,7 @@ using Section08.ModelSection.DAL;
 namespace Section08.ModelSection.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240715083328_Initial")]
+    [Migration("20240715084755_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -49,13 +49,15 @@ namespace Section08.ModelSection.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Barcode")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("Price")
                         .HasPrecision(8, 2)
@@ -66,11 +68,13 @@ namespace Section08.ModelSection.Migrations
 
                     b.Property<string>("Url")
                         .IsRequired()
-                        .HasColumnType("varchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("Name");
 
                     b.ToTable("Products");
                 });
