@@ -13,7 +13,7 @@ namespace Section08.ModelSection.DAL
         //public DbSet<Manager> Managers { get; set; }
         //public DbSet<Employee> Employees { get; set; }
 
-        public DbSet<ProductFull> ProductFulls { get; set; }
+        //public DbSet<ProductFull> ProductFulls { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductFeature> ProductFeatures { get; set; }
@@ -27,6 +27,12 @@ namespace Section08.ModelSection.DAL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
+            modelBuilder.Entity<Product>().Ignore(x => x.Barcode);
+            modelBuilder.Entity<Product>().Property(x => x.Name).IsUnicode(false);
+            modelBuilder.Entity<Product>().Property(x => x.Url).HasColumnType("varchar(200)");
+
+            //----------------------------------------------------
+
             modelBuilder.Entity<Product>()
                         .HasOne(x => x.ProductFeature)
                         .WithOne(x => x.Product)
@@ -36,7 +42,7 @@ namespace Section08.ModelSection.DAL
 
             modelBuilder.Entity<Product>().Property(x => x.Price).HasPrecision(8,2);
 
-            modelBuilder.Entity<ProductFull>().HasNoKey();
+            //modelBuilder.Entity<ProductFull>().HasNoKey();
 
             //----------------------------------------------------------------
 

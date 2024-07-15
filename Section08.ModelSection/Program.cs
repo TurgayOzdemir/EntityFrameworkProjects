@@ -4,12 +4,13 @@ using Section08.ModelSection.DAL;
 
 using (var _context = new AppDbContext())
 {
-
+    /*
     var productFulls = _context.ProductFulls.FromSqlRaw(
         @"SELECT p.Id 'Product_Id', c.Name 'CategoryName', p.Name, p.Price, pf.Height FROM Products p
         JOIN ProductFeatures pf on p.Id = pf.Id
         JOIN Categories c on p.CategoryId = c.Id"
         ).ToList();
+    */
 
     /*
     var category = new Category() { Name = "Silgiler" };
