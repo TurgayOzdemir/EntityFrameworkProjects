@@ -26,6 +26,13 @@ namespace Section08.ModelSection.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Product>().Property(x => x.DiscountPrice).HasPrecision(8, 2);
+            modelBuilder.Entity<Product>().ToTable(x => x.HasCheckConstraint("PriceDiscountCheck", "[Price]>[DiscountPrice]"));
+
+
+            //------------------------------------------------------------------
+
+
             modelBuilder.Entity<Product>().HasIndex(x => x.Name);
             modelBuilder.Entity<Product>().HasIndex(x => new {x.Name, x.Url});
             modelBuilder.Entity<Product>().HasIndex(x => x.Name).IncludeProperties(x => new {x.Price, x.Stock});

@@ -25,6 +25,7 @@ namespace Section08.ModelSection.DAL
 
         //[Precision(18,2)] // ################,##
         public decimal Price { get; set; }
+        public decimal DiscountPrice { get; set; }
         public int Stock { get; set; }
 
         //[NotMapped] Tabloda stün olarak oluşturmaz.

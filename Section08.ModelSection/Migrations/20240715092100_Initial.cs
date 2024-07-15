@@ -30,8 +30,9 @@ namespace Section08.ModelSection.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Url = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Url = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
+                    DiscountPrice = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
                     Stock = table.Column<int>(type: "int", nullable: false),
                     Barcode = table.Column<int>(type: "int", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false)
@@ -39,6 +40,7 @@ namespace Section08.ModelSection.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
+                    table.CheckConstraint("PriceDiscountCheck", "[Price]>[DiscountPrice]");
                     table.ForeignKey(
                         name: "FK_Products_Categories_CategoryId",
                         column: x => x.CategoryId,
@@ -75,7 +77,13 @@ namespace Section08.ModelSection.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Products_Name",
                 table: "Products",
-                column: "Name");
+                column: "Name")
+                .Annotation("SqlServer:Include", new[] { "Price", "Stock" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_Name_Url",
+                table: "Products",
+                columns: new[] { "Name", "Url" });
         }
 
         /// <inheritdoc />

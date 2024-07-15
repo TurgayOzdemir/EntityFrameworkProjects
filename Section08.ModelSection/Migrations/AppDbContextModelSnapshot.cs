@@ -52,6 +52,10 @@ namespace Section08.ModelSection.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("DiscountPrice")
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -73,9 +77,14 @@ namespace Section08.ModelSection.Migrations
 
                     b.HasIndex("Name");
 
+                    SqlServerIndexBuilderExtensions.IncludeProperties(b.HasIndex("Name"), new[] { "Price", "Stock" });
+
                     b.HasIndex("Name", "Url");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", t =>
+                        {
+                            t.HasCheckConstraint("PriceDiscountCheck", "[Price]>[DiscountPrice]");
+                        });
                 });
 
             modelBuilder.Entity("Section08.ModelSection.DAL.ProductFeature", b =>

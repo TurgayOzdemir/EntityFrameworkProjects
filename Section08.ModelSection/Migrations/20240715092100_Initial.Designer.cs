@@ -11,7 +11,7 @@ using Section08.ModelSection.DAL;
 namespace Section08.ModelSection.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240715084755_Initial")]
+    [Migration("20240715092100_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -55,6 +55,10 @@ namespace Section08.ModelSection.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("DiscountPrice")
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -68,7 +72,7 @@ namespace Section08.ModelSection.Migrations
 
                     b.Property<string>("Url")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
@@ -76,7 +80,14 @@ namespace Section08.ModelSection.Migrations
 
                     b.HasIndex("Name");
 
-                    b.ToTable("Products");
+                    SqlServerIndexBuilderExtensions.IncludeProperties(b.HasIndex("Name"), new[] { "Price", "Stock" });
+
+                    b.HasIndex("Name", "Url");
+
+                    b.ToTable("Products", t =>
+                        {
+                            t.HasCheckConstraint("PriceDiscountCheck", "[Price]>[DiscountPrice]");
+                        });
                 });
 
             modelBuilder.Entity("Section08.ModelSection.DAL.ProductFeature", b =>

@@ -4,6 +4,16 @@ using Section08.ModelSection.DAL;
 
 using (var _context = new AppDbContext())
 {
+
+    _context.Products.Add(new() { Name = "Silgi1", Price = 100, Stock = 200, Barcode = 123, DiscountPrice = 130, Url = "dsd",
+                                  Category = new() { Name = "Silgiler"}, 
+                                  ProductFeature = new() { Color = "Red", Height = 100, Width = 100} });
+    _context.SaveChanges();
+
+
+    //---------------------------------------------
+
+
     /*
     var productFulls = _context.ProductFulls.FromSqlRaw(
         @"SELECT p.Id 'Product_Id', c.Name 'CategoryName', p.Name, p.Price, pf.Height FROM Products p
