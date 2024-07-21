@@ -7,16 +7,19 @@ using System.Drawing;
 using (var _context = new AppDbContext())
 {
 
+    //.ToView("vw_productWithFeature");
+    var products = _context.ProductFulls.ToList();
+    Console.WriteLine();
 
 
 
     //------------------------------------------
 
-
+    /*
     //.ToSqlQuery("Select Name, Price From Products");
     var products = _context.ProductEssentials.Where(x => x.Price > 10).ToList(); ;
     Console.WriteLine();
-
+    */
 
     //-----------------------------------------
 

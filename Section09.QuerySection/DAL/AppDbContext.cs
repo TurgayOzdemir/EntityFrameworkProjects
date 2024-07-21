@@ -19,6 +19,8 @@ namespace Section09.QuerySection.DAL
         public DbSet<ProductEssential> ProductEssentials { get; set; }
         //public DbSet<ProductWithFeature> ProductWithFeatures { get; set; }
 
+        public DbSet<ProductFull> ProductFulls { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             Initializer.Build();
@@ -33,8 +35,10 @@ namespace Section09.QuerySection.DAL
             modelBuilder.Entity<Category>().HasMany(x => x.Products).WithOne(x => x.Category).HasForeignKey(x => x.CategoryId);
 
             modelBuilder.Entity<ProductEssential>().HasNoKey().ToSqlQuery("Select Name, Price From Products");
-            
+
             //modelBuilder.Entity<ProductWithFeature>().HasNoKey().Property(x => x.Price).HasPrecision(8, 2);
+
+            modelBuilder.Entity<ProductFull>().ToView("vw_productWithFeature");
 
             base.OnModelCreating(modelBuilder);
         }
