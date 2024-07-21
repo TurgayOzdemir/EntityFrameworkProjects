@@ -1,9 +1,37 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using Section09.QuerySection.DAL;
 using System.Drawing;
 
 using (var _context = new AppDbContext())
 {
+    //Left join ve Right joinde sadece yerini değiştiriyoruz. 
+    
+    var leftJoin = await (from p in _context.Products
+                        join pf in _context.ProductFeatures on p.Id equals pf.Id into pflist
+                        from pf in pflist.DefaultIfEmpty()
+                        select new { 
+                            ProductName = p.Name,
+                            ProductColor = pf.Color,
+                            ProductWidth = (int?)pf.Width == null ? 0 : pf.Width
+                        }).ToListAsync();
+    
+
+    var rightJoin = await ( from pf in _context.ProductFeatures
+                            join p in _context.Products on pf.Id equals p.Id into plist
+                            from p in plist.DefaultIfEmpty()
+                            select new
+                            {
+                                ProductName = p.Name,
+                                ProductColor = pf.Color,
+                                ProductWidth = (int?)pf.Width == null ? 0 : pf.Width
+                            }).ToListAsync();
+
+
+    //---------------------------------------------------------------
+
+
+
     //INNER JOIN
 
     /*//2'li Join
