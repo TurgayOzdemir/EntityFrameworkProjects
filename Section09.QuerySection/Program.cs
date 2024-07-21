@@ -5,6 +5,43 @@ using System.Drawing;
 
 using (var _context = new AppDbContext())
 {
+    //QUERY SYNTAX
+    var leftJoin = await (from p in _context.Products
+                          join pf in _context.ProductFeatures on p.Id equals pf.Id into pflist
+                          from pf in pflist.DefaultIfEmpty()
+                          select new
+                          {
+                              Id = p.Id,
+                              Name = p.Name,
+                              Color = pf.Color
+                          }).ToListAsync();
+
+
+    var rightJoin = await (from pf in _context.ProductFeatures
+                           join p in _context.Products on pf.Id equals p.Id into plist
+                           from p in plist.DefaultIfEmpty()
+                           select new
+                           {
+                               Id = p.Id,
+                               Name = p.Name,
+                               Color = pf.Color
+                           }).ToListAsync();
+
+
+    var outerJoin = leftJoin.Union(rightJoin);
+
+    outerJoin.ToList().ForEach(x =>
+    {
+        Console.WriteLine(x.Id);
+        Console.WriteLine(x.Name);
+        Console.WriteLine(x.Color);
+    });
+
+    //--------------------------------------------
+
+
+
+    /*
     //Left join ve Right joinde sadece yerini değiştiriyoruz. 
     
     var leftJoin = await (from p in _context.Products
@@ -27,6 +64,8 @@ using (var _context = new AppDbContext())
                                 ProductWidth = (int?)pf.Width == null ? 0 : pf.Width
                             }).ToListAsync();
 
+    */
+
 
     //---------------------------------------------------------------
 
@@ -35,6 +74,7 @@ using (var _context = new AppDbContext())
     //INNER JOIN
 
     /*//2'li Join
+     * METHOD SYNTAX
     var result = _context.Categories.Join(_context.Products, x => x.Id, y => y.CategoryId, (c, p) => new
     {
         CategoryName= c.Name,
@@ -76,7 +116,7 @@ using (var _context = new AppDbContext())
 
     */
 
-    Console.WriteLine();
+     Console.WriteLine();
 
     /*
     var category = new Category() { Name = "Kalemler" };
