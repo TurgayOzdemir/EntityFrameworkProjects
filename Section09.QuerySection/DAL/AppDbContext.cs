@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Section09.QuerySection.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace Section09.QuerySection.DAL
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductFeature> ProductFeatures { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<ProductEssential> ProductEssentials { get; set; }
+        //public DbSet<ProductWithFeature> ProductWithFeatures { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,6 +31,10 @@ namespace Section09.QuerySection.DAL
             modelBuilder.Entity<Product>().Property(x => x.Price).HasPrecision(8,2);
             modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.Id);
             modelBuilder.Entity<Category>().HasMany(x => x.Products).WithOne(x => x.Category).HasForeignKey(x => x.CategoryId);
+
+            modelBuilder.Entity<ProductEssential>().HasNoKey();
+            
+            modelBuilder.Entity<ProductWithFeature>().HasNoKey().Property(x => x.Price).HasPrecision(8, 2);
 
             base.OnModelCreating(modelBuilder);
         }

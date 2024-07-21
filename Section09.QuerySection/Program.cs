@@ -1,10 +1,23 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using Section09.QuerySection.DAL;
+using Section09.QuerySection.Models;
 using System.Drawing;
 
 using (var _context = new AppDbContext())
 {
+
+    var products = await _context.ProductEssentials.FromSqlRaw("select Name,Price from products").ToListAsync();
+
+    //Yeni yöntem ile dto için db set yapmak zorunda değiliz.
+    var productWithFeature = await _context.Set<ProductWithFeature>()
+        .FromSqlRaw("SELECT p.Id, p.Name, p.Price, pf.Color, pf.Height FROM Products p INNER JOIN ProductFeatures pf on p.Id = pf.Id").ToListAsync();
+
+    Console.WriteLine();
+
+    //-----------------------------------------
+
+    /*/
     var id = 5;
     decimal price = 15;
 
@@ -19,7 +32,7 @@ using (var _context = new AppDbContext())
     var products3 = await _context.Products.FromSqlInterpolated($"select * from products where Price>{price}").ToListAsync();
 
     Console.WriteLine();
-
+    */
 
 
     //-----------------------------------

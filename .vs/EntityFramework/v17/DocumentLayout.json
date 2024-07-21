@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\models\\productwithfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\models\\productwithfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +19,16 @@
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\models\\productessential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\models\\productessential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,9 +46,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Program.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Program.cs*",
-              "RelativeToolTip": "Section09.QuerySection\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Program.cs",
+              "RelativeToolTip": "Section09.QuerySection\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T20:14:21.838Z",
               "IsPinned": true,
@@ -49,12 +57,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductWithFeature.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductWithFeature.cs",
+              "RelativeDocumentMoniker": "Section09.QuerySection\\Models\\ProductWithFeature.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductWithFeature.cs",
+              "RelativeToolTip": "Section09.QuerySection\\Models\\ProductWithFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:54:28.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductEssential.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductEssential.cs",
+              "RelativeDocumentMoniker": "Section09.QuerySection\\Models\\ProductEssential.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductEssential.cs",
+              "RelativeToolTip": "Section09.QuerySection\\Models\\ProductEssential.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T11:53:52.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section09.QuerySection\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T20:11:31.058Z",
               "EditorCaption": ""
@@ -74,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\Category.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\DAL\\Category.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\Product.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\DAL\\Product.cs",
