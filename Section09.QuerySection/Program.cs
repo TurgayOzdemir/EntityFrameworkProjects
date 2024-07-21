@@ -5,6 +5,28 @@ using System.Drawing;
 
 using (var _context = new AppDbContext())
 {
+    var id = 5;
+    decimal price = 15;
+
+    // FromSqlRaw
+    var products = await _context.Products.FromSqlRaw("select * from products").ToListAsync();
+
+    var product = await _context.Products.FromSqlRaw("select * from products where Id={0}", id).FirstAsync();
+
+    var products2 = await _context.Products.FromSqlRaw("select * from products where Price>{0}", price).ToListAsync();
+
+    //FromSqlInterpolated
+    var products3 = await _context.Products.FromSqlInterpolated($"select * from products where Price>{price}").ToListAsync();
+
+    Console.WriteLine();
+
+
+
+    //-----------------------------------
+
+
+
+    /*
     //QUERY SYNTAX
     var leftJoin = await (from p in _context.Products
                           join pf in _context.ProductFeatures on p.Id equals pf.Id into pflist
@@ -36,6 +58,8 @@ using (var _context = new AppDbContext())
         Console.WriteLine(x.Name);
         Console.WriteLine(x.Color);
     });
+    */
+
 
     //--------------------------------------------
 
@@ -116,7 +140,7 @@ using (var _context = new AppDbContext())
 
     */
 
-     Console.WriteLine();
+    Console.WriteLine();
 
     /*
     var category = new Category() { Name = "Kalemler" };
