@@ -7,6 +7,22 @@ using System.Drawing;
 using (var _context = new AppDbContext())
 {
 
+
+
+
+    //------------------------------------------
+
+
+    //.ToSqlQuery("Select Name, Price From Products");
+    var products = _context.ProductEssentials.Where(x => x.Price > 10).ToList(); ;
+    Console.WriteLine();
+
+
+    //-----------------------------------------
+
+
+
+    /*
     var products = await _context.ProductEssentials.FromSqlRaw("select Name,Price from products").ToListAsync();
 
     //Yeni yöntem ile dto için db set yapmak zorunda değiliz.
@@ -14,6 +30,8 @@ using (var _context = new AppDbContext())
         .FromSqlRaw("SELECT p.Id, p.Name, p.Price, pf.Color, pf.Height FROM Products p INNER JOIN ProductFeatures pf on p.Id = pf.Id").ToListAsync();
 
     Console.WriteLine();
+    */
+
 
     //-----------------------------------------
 
