@@ -6,13 +6,25 @@ using System.Drawing;
 
 
 
-using (var _context = new AppDbContext())
+using (var _context = new AppDbContext(1000))
 {
 
 
+    //new AppDbContext(1000)
     var products = _context.Products.ToList();
+    Console.WriteLine();
+
+
+
+    //-----------------------------------------
+
+
+    /*
+    var products = _context.Products.ToList();
+    //var products = _context.Products.IgnoreQueryFilters().ToList(); QUERY FILTER BURADA İŞLEMİYOR
 
     Console.WriteLine();
+    */
 
 
     //-----------------------------------------------

@@ -11,6 +11,19 @@ namespace Section09.QuerySection.DAL
 {
     public class AppDbContext : DbContext
     {
+        private readonly int Barcode;
+
+        public AppDbContext(int barcode)
+        {
+            Barcode = barcode;
+        }
+
+        public AppDbContext()
+        {
+            
+        }
+
+
         //public DbSet<Person> People { get; set; }
 
         public DbSet<Product> Products { get; set; }
@@ -43,6 +56,11 @@ namespace Section09.QuerySection.DAL
 
             modelBuilder.Entity<Product>().Property(x => x.IsDeleted).HasDefaultValue(false);
             modelBuilder.Entity<Product>().HasQueryFilter(p => !p.IsDeleted); //HER SORGUYA OTOMATİK OLARAK EKLENECEK
+
+            if (Barcode != default(int))
+            {
+                modelBuilder.Entity<Product>().HasQueryFilter(p => p.Barcode == Barcode);
+            }
 
             base.OnModelCreating(modelBuilder);
         }
