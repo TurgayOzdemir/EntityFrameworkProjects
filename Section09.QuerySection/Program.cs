@@ -4,13 +4,32 @@ using Section09.QuerySection.DAL;
 using Section09.QuerySection.Models;
 using System.Drawing;
 
+List<Product> GetProducts(int page, int pageSize, AppDbContext _context)
+{
+    var products = _context.Products.OrderByDescending(x => x.Id).Skip(pageSize * (page-1)).Take(pageSize).ToList();
+
+    return products;
+}
+
 using (var _context = new AppDbContext())
 {
 
+    //Take - Skip
+    GetProducts(3, 3, _context).ForEach(x =>
+    {
+        Console.WriteLine($"ID: {x.Id} NAME: {x.Name}");
+    });
+
+
+    //-------------------------------------------
+
+
+
+    /*
     //.ToView("vw_productWithFeature");
     var products = _context.ProductFulls.ToList();
     Console.WriteLine();
-
+    */
 
 
     //------------------------------------------
@@ -174,34 +193,35 @@ using (var _context = new AppDbContext())
 
     */
 
+    /*
     Console.WriteLine();
 
-    /*
-    var category = new Category() { Name = "Kalemler" };
+    
+    var category = new Category() { Name = "Defterler" };
 
     category.Products.Add(new()
     {
-        Name = "Kalem 1",
-        Price = 10,
-        Stock = 1000,
-        Barcode = 0001,
-        ProductFeature = new() { Color = "Red", Width = 1, Height = 10 }
+        Name = "Defter 4",
+        Price = 3,
+        Stock = 100,
+        Barcode = 0111,
+        ProductFeature = new() { Color = "Red", Width = 3, Height = 3 }
     });
     category.Products.Add(new()
     {
-        Name = "Kalem 2",
-        Price = 15,
-        Stock = 500,
-        Barcode = 0010,
-        ProductFeature = new() { Color = "Green", Width = 1, Height = 11 }
+        Name = "Defter 5",
+        Price = 7,
+        Stock = 50,
+        Barcode = 1000,
+        ProductFeature = new() { Color = "Green", Width = 1, Height = 1 }
     });
     category.Products.Add(new()
     {
-        Name = "Kalem 3",
-        Price = 20,
-        Stock = 2000,
-        Barcode = 0011,
-        ProductFeature = new() { Color = "Blue", Width = 1, Height = 11 }
+        Name = "Defter 6",
+        Price = 1,
+        Stock = 200,
+        Barcode = 1001,
+        ProductFeature = new() { Color = "Yellow", Width = 1, Height = 2 }
     });
 
     _context.Categories.Add(category);
