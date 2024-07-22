@@ -4,21 +4,29 @@ using Section09.QuerySection.DAL;
 using Section09.QuerySection.Models;
 using System.Drawing;
 
-List<Product> GetProducts(int page, int pageSize, AppDbContext _context)
-{
-    var products = _context.Products.OrderByDescending(x => x.Id).Skip(pageSize * (page-1)).Take(pageSize).ToList();
 
-    return products;
-}
 
 using (var _context = new AppDbContext())
 {
 
+
+    var products = _context.Products.ToList();
+
+    Console.WriteLine();
+
+
+    //-----------------------------------------------
+
+
+
+    /*
     //Take - Skip
     GetProducts(3, 3, _context).ForEach(x =>
     {
         Console.WriteLine($"ID: {x.Id} NAME: {x.Name}");
     });
+    */
+
 
 
     //-------------------------------------------
@@ -252,4 +260,11 @@ using (var _context = new AppDbContext())
 string FormatPhone(string phone)
 {
     return phone.Substring(1,phone.Length-1);
+}
+
+List<Product> GetProducts(int page, int pageSize, AppDbContext _context)
+{
+    var products = _context.Products.OrderByDescending(x => x.Id).Skip(pageSize * (page - 1)).Take(pageSize).ToList();
+
+    return products;
 }

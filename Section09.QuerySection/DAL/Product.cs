@@ -16,6 +16,7 @@ namespace Section09.QuerySection.DAL
         public decimal Price { get; set; }
         public int Stock { get; set; }
         public int Barcode { get; set; }
+        public bool IsDeleted { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
         public virtual ProductFeature ProductFeature { get; set; }
