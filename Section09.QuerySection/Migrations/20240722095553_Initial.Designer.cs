@@ -11,8 +11,8 @@ using Section09.QuerySection.DAL;
 namespace Section09.QuerySection.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240722093734_AddIsDeleted_ForProduct")]
-    partial class AddIsDeleted_ForProduct
+    [Migration("20240722095553_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,11 +54,6 @@ namespace Section09.QuerySection.Migrations
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
 
                     b.Property<string>("Name")
                         .IsRequired()

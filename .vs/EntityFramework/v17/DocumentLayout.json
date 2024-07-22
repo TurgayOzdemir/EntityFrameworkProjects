@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\models\\productessential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\models\\productessential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|solutionrelative:section09.querysection\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B454FE3-DA9C-4B14-97A8-29C65C2E5E21}|Section09.QuerySection\\Section09.QuerySection.csproj|d:\\asp project\\entityframework\\section09.querysection\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Section09.QuerySection\\Program.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Program.cs",
               "RelativeToolTip": "Section09.QuerySection\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T20:14:21.838Z",
               "IsPinned": true,
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductFull.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductFull.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\Models\\ProductFull.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductWithFeature.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductWithFeature.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\Models\\ProductWithFeature.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductEssential.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\Models\\ProductEssential.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\Models\\ProductEssential.cs",
@@ -105,14 +105,14 @@
               "RelativeDocumentMoniker": "Section09.QuerySection\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section09.QuerySection\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAmwD4AAAANAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T20:11:31.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ProductFeature.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\ProductFeature.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\DAL\\ProductFeature.cs",
@@ -138,13 +138,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\Product.cs",
               "RelativeDocumentMoniker": "Section09.QuerySection\\DAL\\Product.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section09.QuerySection\\DAL\\Product.cs",
               "RelativeToolTip": "Section09.QuerySection\\DAL\\Product.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAArAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T20:10:11.135Z",
               "EditorCaption": ""

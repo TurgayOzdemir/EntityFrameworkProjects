@@ -6,14 +6,23 @@ using System.Drawing;
 
 
 
-using (var _context = new AppDbContext(1000))
+using (var _context = new AppDbContext())
 {
 
+    var productWithFeature = _context.Products
+                             .TagWith("Bu querry ürünler ve ürünlere bağlı özellikleri getirir")
+                             .Include(x => x.ProductFeature).Where(x => x.Price > 5).ToList();
+    Console.WriteLine();
 
+
+    //----------------------------------------
+
+
+    /*
     //new AppDbContext(1000)
     var products = _context.Products.ToList();
     Console.WriteLine();
-
+    */
 
 
     //-----------------------------------------
@@ -217,11 +226,11 @@ using (var _context = new AppDbContext(1000))
     Console.WriteLine();
 
     
-    var category = new Category() { Name = "Defterler" };
+    var category = new Category() { Name = "Kalemler" };
 
     category.Products.Add(new()
     {
-        Name = "Defter 4",
+        Name = "Kalem 1",
         Price = 3,
         Stock = 100,
         Barcode = 0111,
@@ -229,7 +238,7 @@ using (var _context = new AppDbContext(1000))
     });
     category.Products.Add(new()
     {
-        Name = "Defter 5",
+        Name = "Kalem 2",
         Price = 7,
         Stock = 50,
         Barcode = 1000,
@@ -237,7 +246,7 @@ using (var _context = new AppDbContext(1000))
     });
     category.Products.Add(new()
     {
-        Name = "Defter 6",
+        Name = "Kalem 3",
         Price = 1,
         Stock = 200,
         Barcode = 1001,

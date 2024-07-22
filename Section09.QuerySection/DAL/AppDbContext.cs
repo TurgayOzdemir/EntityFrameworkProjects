@@ -54,13 +54,15 @@ namespace Section09.QuerySection.DAL
 
             //modelBuilder.Entity<ProductFull>().ToView("vw_productWithFeature");
 
-            modelBuilder.Entity<Product>().Property(x => x.IsDeleted).HasDefaultValue(false);
+            /*modelBuilder.Entity<Product>().Property(x => x.IsDeleted).HasDefaultValue(false);
             modelBuilder.Entity<Product>().HasQueryFilter(p => !p.IsDeleted); //HER SORGUYA OTOMATİK OLARAK EKLENECEK
 
             if (Barcode != default(int))
             {
                 modelBuilder.Entity<Product>().HasQueryFilter(p => p.Barcode == Barcode);
-            }
+            }*/
+
+
 
             base.OnModelCreating(modelBuilder);
         }
