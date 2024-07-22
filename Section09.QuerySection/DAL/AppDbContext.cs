@@ -39,7 +39,8 @@ namespace Section09.QuerySection.DAL
         {
             Initializer.Build();
             optionsBuilder.LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information)
-                          .UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"));
+                          .UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"))
+                          .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);// HER ZAMAN NOTRACKİNG İŞARETLER
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

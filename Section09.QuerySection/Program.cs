@@ -9,10 +9,26 @@ using System.Drawing;
 using (var _context = new AppDbContext())
 {
 
+    //var product = _context.Products.AsNoTracking().First(x => x.Id == 2);
+    var product = _context.Products.First(x => x.Id == 2); //OnConfiguring üzerinden AsNoTracking işaretlendi
+
+    product.Name = "Yeni Ürün";
+
+    _context.Update(product);
+    //_context.Entry(product).State = EntityState.Modified;
+
+    _context.SaveChanges();
+
+
+    //-------------------------------------
+
+
+    /*
     var productWithFeature = _context.Products
                              .TagWith("Bu querry ürünler ve ürünlere bağlı özellikleri getirir")
                              .Include(x => x.ProductFeature).Where(x => x.Price > 5).ToList();
     Console.WriteLine();
+    */
 
 
     //----------------------------------------
