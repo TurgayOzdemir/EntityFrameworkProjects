@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Section10.StoreProceduredFunction.DAL
+namespace Section10.StoreProceduredFunction.Models
 {
     public class ProductFull
     {

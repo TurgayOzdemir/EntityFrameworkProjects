@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Section10.StoreProceduredFunction.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace Section10.StoreProceduredFunction.DAL
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<ProductFull> ProductFulls { get; set; }
+        public DbSet<ProductWithFeature> ProductWithFeatures { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -31,6 +33,7 @@ namespace Section10.StoreProceduredFunction.DAL
             //modelBuilder.Entity<ProductFull>().Property(x => x.Price).HasPrecision(8,2);
 
             modelBuilder.Entity<ProductFull>().ToFunction("fc_product_full");
+            modelBuilder.Entity<ProductWithFeature>().HasNoKey();
 
             base.OnModelCreating(modelBuilder);
         }

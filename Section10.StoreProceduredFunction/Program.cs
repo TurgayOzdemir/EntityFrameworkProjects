@@ -5,11 +5,18 @@ using Section10.StoreProceduredFunction.DAL;
 
 using (var _context = new AppDbContext())
 {
-
-    // ToFunction("fc_product_full");
-    var products = await _context.ProductFulls.ToListAsync();
+    int categoryId = 1;
+    var products = await _context.ProductWithFeatures.FromSqlInterpolated($"SELECT * FROM fc_product_full_with_param({categoryId})").ToListAsync();
 
     Console.WriteLine();
+
+    //--------------------------------------------------------
+
+
+    // ToFunction("fc_product_full");
+    //var products = await _context.ProductFulls.ToListAsync();
+
+    //Console.WriteLine();
 
     //---------------------------------------------------------
 

@@ -7,15 +7,19 @@
       "RelativeMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|solutionrelative:section10.storeproceduredfunction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ozdem\\AppData\\Local\\Temp\\ygbndvay..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|d:\\asp project\\entityframework\\section10.storeproceduredfunction\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|solutionrelative:section10.storeproceduredfunction\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ozdem\\AppData\\Local\\Temp\\ygbndvay..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|d:\\asp project\\entityframework\\section10.storeproceduredfunction\\models\\productfull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|solutionrelative:section10.storeproceduredfunction\\models\\productfull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|d:\\asp project\\entityframework\\section10.storeproceduredfunction\\dal\\productfull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|solutionrelative:section10.storeproceduredfunction\\dal\\productfull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|d:\\asp project\\entityframework\\section10.storeproceduredfunction\\models\\productwithfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|solutionrelative:section10.storeproceduredfunction\\models\\productwithfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE3EBA47-1A05-41E9-8DE2-75AE7D9F7BDD}|Section10.StoreProceduredFunction\\Section10.StoreProceduredFunction.csproj|d:\\asp project\\entityframework\\section10.storeproceduredfunction\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,11 +39,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\ozdem\\AppData\\Local\\Temp\\ygbndvay..sql",
               "ToolTip": "SQLQuery1.sql *",
@@ -50,12 +54,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductWithFeature.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Models\\ProductWithFeature.cs",
+              "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\Models\\ProductWithFeature.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Models\\ProductWithFeature.cs",
+              "RelativeToolTip": "Section10.StoreProceduredFunction\\Models\\ProductWithFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:54:32.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductFull.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\ProductFull.cs",
-              "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\DAL\\ProductFull.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\ProductFull.cs",
-              "RelativeToolTip": "Section10.StoreProceduredFunction\\DAL\\ProductFull.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Models\\ProductFull.cs",
+              "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\Models\\ProductFull.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Models\\ProductFull.cs",
+              "RelativeToolTip": "Section10.StoreProceduredFunction\\Models\\ProductFull.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T16:48:53.949Z",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductFeature.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\ProductFeature.cs",
               "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\DAL\\ProductFeature.cs",
@@ -76,13 +93,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section10.StoreProceduredFunction\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA9wCAAAABMAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwCMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T11:57:39.094Z",
               "EditorCaption": ""
@@ -95,7 +112,7 @@
               "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\Program.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Program.cs*",
               "RelativeToolTip": "Section10.StoreProceduredFunction\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T11:53:39.593Z",
               "EditorCaption": ""
