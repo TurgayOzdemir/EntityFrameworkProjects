@@ -14,6 +14,8 @@ namespace Section10.StoreProceduredFunction.DAL
         public DbSet<ProductFeature> ProductFeatures { get; set; }
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<ProductFull> ProductFulls { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             Initializer.Build();
@@ -24,6 +26,9 @@ namespace Section10.StoreProceduredFunction.DAL
         {
             modelBuilder.Entity<Product>().HasOne(x => x.ProductFeature).WithOne(x => x.Product).HasForeignKey<ProductFeature>(x => x.Id);
             modelBuilder.Entity<Product>().Property(x => x.Price).HasPrecision(8,2);
+
+            modelBuilder.Entity<ProductFull>().HasNoKey();
+            modelBuilder.Entity<ProductFull>().Property(x => x.Price).HasPrecision(8,2);
 
             base.OnModelCreating(modelBuilder);
         }

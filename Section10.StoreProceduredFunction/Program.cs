@@ -5,9 +5,17 @@ using Section10.StoreProceduredFunction.DAL;
 using (var _context = new AppDbContext())
 {
 
-    var products = await _context.Products.FromSqlRaw("EXEC sp_get_products").ToListAsync();
+    var products = await _context.ProductFulls.FromSqlRaw("EXEC sp_get_product_full").ToListAsync();
 
     Console.WriteLine();
+
+
+    //---------------------------------------------------
+
+
+    //var products = await _context.Products.FromSqlRaw("EXEC sp_get_products").ToListAsync();
+
+    //Console.WriteLine();
 
     /*
     var category1 = new Category() { Name = "Kalemler" };
