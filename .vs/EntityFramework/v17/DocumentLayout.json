@@ -39,6 +39,17 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\ozdem\\AppData\\Local\\Temp\\ygbndvay..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-23T16:39:21.347Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ProductFull.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\ProductFull.cs",
@@ -65,16 +76,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\ozdem\\AppData\\Local\\Temp\\ygbndvay..sql",
-              "ToolTip": "SQLQuery1.sql *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-23T16:39:21.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\DAL\\AppDbContext.cs",
@@ -92,9 +93,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Program.cs",
               "RelativeDocumentMoniker": "Section10.StoreProceduredFunction\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Program.cs",
-              "RelativeToolTip": "Section10.StoreProceduredFunction\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABuAAAA",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section10.StoreProceduredFunction\\Program.cs*",
+              "RelativeToolTip": "Section10.StoreProceduredFunction\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T11:53:39.593Z",
               "EditorCaption": ""

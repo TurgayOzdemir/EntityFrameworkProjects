@@ -1,15 +1,54 @@
 ﻿
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Section10.StoreProceduredFunction.DAL;
 
 using (var _context = new AppDbContext())
 {
+    /* SQL QUERY
+    CREATE PROCEDURE sp_insert_product
+    @name nvarchar(max),
+    @price decimal(8, 2),
+    @stock int,
+    @barcode int,
+    @categoryId int,
+    @newId int OUTPUT
+    AS
+    BEGIN
+    INSERT INTO Products(Name, Price, Stock, Barcode, CategoryId) VALUES(@name, @price, @stock, @barcode, @categoryId)
+    SET @newId = SCOPE_IDENTITY()
+    RETURN @newId
+    END
+
+    DECLARE @newId int
+
+    EXEC sp_insert_product "Kalem 4", 9, 100, 1110, 1, @newId OUTPUT
+
+    SELECT @newId
+    */
+
+    var product = new Product { Name = "Kalem 5", Price = 10, Stock = 200, Barcode = 1111, CategoryId = 1};
+
+    var newProductId = new SqlParameter("@newId", System.Data.SqlDbType.Int);
+    newProductId.Direction = System.Data.ParameterDirection.Output;
+
+    await _context.Database.ExecuteSqlInterpolatedAsync($"EXEC sp_insert_product {product.Name}, {product.Price}, {product.Stock}, {product.Barcode}, {product.CategoryId}, {newProductId} out");
+
+    var id = newProductId.Value;
+
+    Console.WriteLine();
+
+    //-------------------------------------------------
+
+
+    /*
     int categoryId = 2;
     decimal price = 4;
 
     var products = await _context.ProductFulls.FromSqlRaw($"EXEC sp_get_product_full_param {categoryId},{price}").ToListAsync();
 
     Console.WriteLine();
+    */
 
 
     //---------------------------------------------------
