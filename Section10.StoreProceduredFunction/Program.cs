@@ -4,10 +4,20 @@ using Section10.StoreProceduredFunction.DAL;
 
 using (var _context = new AppDbContext())
 {
+    int categoryId = 2;
+    decimal price = 4;
 
-    var products = await _context.ProductFulls.FromSqlRaw("EXEC sp_get_product_full").ToListAsync();
+    var products = await _context.ProductFulls.FromSqlRaw($"EXEC sp_get_product_full_param {categoryId},{price}").ToListAsync();
 
     Console.WriteLine();
+
+
+    //---------------------------------------------------
+
+
+    //var products = await _context.ProductFulls.FromSqlRaw("EXEC sp_get_product_full").ToListAsync();
+
+    //Console.WriteLine();
 
 
     //---------------------------------------------------
