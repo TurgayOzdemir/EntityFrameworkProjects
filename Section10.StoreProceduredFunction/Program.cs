@@ -5,6 +5,15 @@ using Section10.StoreProceduredFunction.DAL;
 
 using (var _context = new AppDbContext())
 {
+
+    // ToFunction("fc_product_full");
+    var products = await _context.ProductFulls.ToListAsync();
+
+    Console.WriteLine();
+
+    //---------------------------------------------------------
+
+
     /* SQL QUERY
     CREATE PROCEDURE sp_insert_product
     @name nvarchar(max),
@@ -27,6 +36,7 @@ using (var _context = new AppDbContext())
     SELECT @newId
     */
 
+    /*
     var product = new Product { Name = "Kalem 5", Price = 10, Stock = 200, Barcode = 1111, CategoryId = 1};
 
     var newProductId = new SqlParameter("@newId", System.Data.SqlDbType.Int);
@@ -37,6 +47,8 @@ using (var _context = new AppDbContext())
     var id = newProductId.Value;
 
     Console.WriteLine();
+    */
+
 
     //-------------------------------------------------
 
