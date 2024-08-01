@@ -18,6 +18,8 @@ namespace Section10.StoreProceduredFunction.DAL
         public DbSet<ProductFull> ProductFulls { get; set; }
         //public DbSet<ProductWithFeature> ProductWithFeatures { get; set; }
 
+        public DbSet<ProductCount> ProductCount { get; set; }
+
         public IQueryable<ProductWithFeature> GetProductWithFeatures(int categoryId){
             return FromExpression(() => GetProductWithFeatures(categoryId));
         } 
@@ -49,6 +51,9 @@ namespace Section10.StoreProceduredFunction.DAL
 
             modelBuilder.HasDbFunction(typeof(AppDbContext).GetMethod(nameof(GetProductCount), new[] { typeof(int) })!)
                 .HasName("fc_get_product_count");
+
+            modelBuilder.Entity<ProductCount>().HasNoKey();
+
             base.OnModelCreating(modelBuilder);
         }
     }

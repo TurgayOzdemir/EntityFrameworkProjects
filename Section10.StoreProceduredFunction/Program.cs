@@ -6,6 +6,17 @@ using Section10.StoreProceduredFunction.DAL;
 using (var _context = new AppDbContext())
 {
 
+    var categoryId = 1;
+
+    var productCount = _context.ProductCount.FromSqlInterpolated($"SELECT dbo.fc_get_product_count({categoryId}) as COUNT").First().Count;
+
+    Console.WriteLine();
+
+    //------------------------------------------------
+
+
+
+    /*
     var categories = _context.Categories.Select(x => new
     {
         CategoryName = x.Name,
@@ -13,6 +24,8 @@ using (var _context = new AppDbContext())
     });
 
     Console.WriteLine();
+    */
+
 
 
     //-----------------------------------------
