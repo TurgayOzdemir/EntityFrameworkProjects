@@ -5,10 +5,34 @@ using Section10.StoreProceduredFunction.DAL;
 
 using (var _context = new AppDbContext())
 {
-    int categoryId = 1;
-    var products = await _context.ProductWithFeatures.FromSqlInterpolated($"SELECT * FROM fc_product_full_with_param({categoryId})").ToListAsync();
 
+    //Where ifadesi kullanılabilir.
+    var product = _context.GetProductWithFeatures(1).ToList();
     Console.WriteLine();
+
+
+    //------------------------------------------------
+
+
+
+    /*
+        CREATE FUNCTION fc_product_full_with_param(@categoryId int)
+        RETURNS TABLE
+        AS
+        RETURN
+        (
+        SELECT p.Id, p.Name, pf.Width, pf.Height FROM Products p
+        LEFT JOIN ProductFeatures pf ON pf.Id = p.Id
+        WHERE p.CategoryId = @categoryId
+        )
+
+        SELECT * FROM fc_product_full_with_param(1)
+     */
+
+    //int categoryId = 1;
+    //var products = await _context.ProductWithFeatures.FromSqlInterpolated($"SELECT * FROM fc_product_full_with_param({categoryId})").ToListAsync();
+
+    //Console.WriteLine();
 
     //--------------------------------------------------------
 

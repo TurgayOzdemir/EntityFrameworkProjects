@@ -16,7 +16,11 @@ namespace Section10.StoreProceduredFunction.DAL
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<ProductFull> ProductFulls { get; set; }
-        public DbSet<ProductWithFeature> ProductWithFeatures { get; set; }
+        //public DbSet<ProductWithFeature> ProductWithFeatures { get; set; }
+
+        public IQueryable<ProductWithFeature> GetProductWithFeatures(int categoryId){
+            return FromExpression(() => GetProductWithFeatures(categoryId));
+        } 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -34,6 +38,9 @@ namespace Section10.StoreProceduredFunction.DAL
 
             modelBuilder.Entity<ProductFull>().ToFunction("fc_product_full");
             modelBuilder.Entity<ProductWithFeature>().HasNoKey();
+
+            modelBuilder.HasDbFunction(typeof(AppDbContext).GetMethod(nameof(GetProductWithFeatures), new[] { typeof(int) })!)
+                .HasName("fc_product_full_with_param");
 
             base.OnModelCreating(modelBuilder);
         }
