@@ -22,6 +22,11 @@ namespace Section10.StoreProceduredFunction.DAL
             return FromExpression(() => GetProductWithFeatures(categoryId));
         } 
 
+        public int GetProductCount(int categoryId)
+        {
+            throw new NotSupportedException("Bu metod EFCore tarafından çalıştırılmaktadır.");
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             Initializer.Build();
@@ -42,6 +47,8 @@ namespace Section10.StoreProceduredFunction.DAL
             modelBuilder.HasDbFunction(typeof(AppDbContext).GetMethod(nameof(GetProductWithFeatures), new[] { typeof(int) })!)
                 .HasName("fc_product_full_with_param");
 
+            modelBuilder.HasDbFunction(typeof(AppDbContext).GetMethod(nameof(GetProductCount), new[] { typeof(int) })!)
+                .HasName("fc_get_product_count");
             base.OnModelCreating(modelBuilder);
         }
     }

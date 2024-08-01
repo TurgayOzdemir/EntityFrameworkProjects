@@ -6,9 +6,22 @@ using Section10.StoreProceduredFunction.DAL;
 using (var _context = new AppDbContext())
 {
 
-    //Where ifadesi kullanılabilir.
-    var product = _context.GetProductWithFeatures(1).ToList();
+    var categories = _context.Categories.Select(x => new
+    {
+        CategoryName = x.Name,
+        ProductCount = _context.GetProductCount(x.Id)
+    });
+
     Console.WriteLine();
+
+
+    //-----------------------------------------
+
+
+
+    //Where ifadesi kullanılabilir.
+    //var product = _context.GetProductWithFeatures(1).ToList();
+    //Console.WriteLine();
 
 
     //------------------------------------------------
