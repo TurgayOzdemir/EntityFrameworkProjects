@@ -1,10 +1,31 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using Section11.Projections.DAL;
 
 using (var _context = new AppDbContext())
 {
 
-    var products = _context.Products.ToList();
+    var products = await _context.Products.Include(x => x.Category).Include(x => x.ProductFeature).Select(x => new
+    {
+        CategoryName = x.Category.Name,
+        ProductName = x.Name,
+        ProductPrice = x.Price,
+        Width = (int?) x.ProductFeature.Width,
+    }).Where(x => x.Width > 0 && x.ProductName.StartsWith("k")).ToListAsync();
+
+    var categories = _context.Categories.Include(x => x.Products).ThenInclude(x => x.ProductFeature).Select(x => new
+    {
+        CategoryName = x.Name,
+        Products = String.Join(",", x.Products.Select(z => z.Name)),
+        TotalPrice = x.Products.Sum(x => x.Price)
+    }).Where(y => y.TotalPrice > 100).OrderBy(x => x.TotalPrice).ToList();
+
+    Console.WriteLine();
+
+    //--------------------------------------------------------
+
+
+    //var products = _context.Products.ToList();
 
 
     /*
