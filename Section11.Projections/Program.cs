@@ -5,6 +5,23 @@ using Section11.Projections.DAL;
 using (var _context = new AppDbContext())
 {
 
+    var products = await _context.Products.Select(x => new
+    {
+        CategoryName = x.Category.Name,
+        ProductName = x.Name,
+        ProductPrice = x.Price,
+        Width = (int?)x.ProductFeature.Width,
+    }).Where(x => x.Width > 0 && x.ProductName.StartsWith("k")).ToListAsync();
+
+
+    Console.WriteLine();
+
+
+    //-------------------------------------------------------
+
+
+
+    /*
     var products = await _context.Products.Include(x => x.Category).Include(x => x.ProductFeature).Select(x => new
     {
         CategoryName = x.Category.Name,
@@ -21,6 +38,9 @@ using (var _context = new AppDbContext())
     }).Where(y => y.TotalPrice > 100).OrderBy(x => x.TotalPrice).ToList();
 
     Console.WriteLine();
+    */
+
+
 
     //--------------------------------------------------------
 
