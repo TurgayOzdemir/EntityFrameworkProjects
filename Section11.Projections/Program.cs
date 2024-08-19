@@ -1,4 +1,5 @@
 ﻿
+using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 using Section11.Projections.DAL;
 using Section11.Projections.DTOs;
@@ -7,12 +8,25 @@ using Section11.Projections.Mappers;
 using (var _context = new AppDbContext())
 {
 
+    //Tüm datayı çekmez. Bu daha iyi
+    var productDTO = _context.Products.ProjectTo<PDTO>(ObjectMapper.Mapper.ConfigurationProvider).ToList();
 
+
+    Console.WriteLine();
+
+
+
+    //-------------------------------------------------------------
+
+
+    /*
     var product = _context.Products.ToList();
 
     var productDTO = ObjectMapper.Mapper.Map<List<PDTO>>(product);
 
     Console.WriteLine();
+    */
+
 
     //--------------------------------------------------------------
 
