@@ -1,10 +1,34 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using Section11.Projections.DAL;
+using Section11.Projections.DTOs;
 
 using (var _context = new AppDbContext())
 {
 
+    var products = await _context.Products.Select(x => new ProductDTO
+    {
+        CategoryName = x.Category.Name,
+        ProductName = x.Name,
+        ProductPrice = x.Price,
+        Width = (int?)x.ProductFeature.Width,
+    }).Where(x => x.Width > 0).ToListAsync();
+
+    var category = await _context.Categories.Select(x => new ProductDTO2
+    {
+        CategoryName = x.Name,
+        ProductName = String.Join(",", x.Products.Select(z => z.Name)),
+        TotalPrice = x.Products.Sum(y => y.Price),
+        TotalWidth = (int?)x.Products.Select(k => k.ProductFeature.Width).Sum(),
+    }).Where(x => x.TotalPrice > 0).ToListAsync();
+
+    Console.WriteLine();
+
+
+    //*-----------------------------------------------------
+
+
+    /*
     var products = await _context.Products.Select(x => new
     {
         CategoryName = x.Category.Name,
@@ -15,6 +39,8 @@ using (var _context = new AppDbContext())
 
 
     Console.WriteLine();
+    */
+
 
 
     //-------------------------------------------------------
