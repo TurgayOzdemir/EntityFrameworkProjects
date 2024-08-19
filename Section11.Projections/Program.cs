@@ -2,10 +2,38 @@
 using Microsoft.EntityFrameworkCore;
 using Section11.Projections.DAL;
 using Section11.Projections.DTOs;
+using Section11.Projections.Mappers;
 
 using (var _context = new AppDbContext())
 {
 
+
+    var product = _context.Products.ToList();
+
+    var productDTO = ObjectMapper.Mapper.Map<List<PDTO>>(product);
+
+    Console.WriteLine();
+
+    //--------------------------------------------------------------
+
+
+
+    /*
+    var productsDto = _context.Products.Select(x => new PDTO
+    {
+        Id = x.Id,
+        Name = x.Name,
+        Price = x.Price,
+    });
+
+    Console.WriteLine();
+    */
+
+
+    //--------------------------------------------------------------
+
+
+    /*
     var products = await _context.Products.Select(x => new ProductDTO
     {
         CategoryName = x.Category.Name,
@@ -23,6 +51,8 @@ using (var _context = new AppDbContext())
     }).Where(x => x.TotalPrice > 0).ToListAsync();
 
     Console.WriteLine();
+    */
+
 
 
     //*-----------------------------------------------------

@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|d:\\asp project\\entityframework\\section11.projections\\mappers\\objectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\mappers\\objectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|d:\\asp project\\entityframework\\section11.projections\\dtos\\pdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\dtos\\pdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|d:\\asp project\\entityframework\\section11.projections\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|d:\\asp project\\entityframework\\section11.projections\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|d:\\asp project\\entityframework\\section11.projections\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|d:\\asp project\\entityframework\\section11.projections\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9265740F-AAD4-44A4-BF3E-7AA1BD08ED27}|Section11.Projections\\Section11.Projections.csproj|solutionrelative:section11.projections\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,16 +50,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObjectMapper.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\Mappers\\ObjectMapper.cs",
+              "RelativeDocumentMoniker": "Section11.Projections\\Mappers\\ObjectMapper.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\Mappers\\ObjectMapper.cs*",
+              "RelativeToolTip": "Section11.Projections\\Mappers\\ObjectMapper.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T19:30:25.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PDTO.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\PDTO.cs",
+              "RelativeDocumentMoniker": "Section11.Projections\\DTOs\\PDTO.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\PDTO.cs",
+              "RelativeToolTip": "Section11.Projections\\DTOs\\PDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T19:26:08.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProductDTO2.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\ProductDTO2.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DTOs\\ProductDTO2.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\ProductDTO2.cs*",
-              "RelativeToolTip": "Section11.Projections\\DTOs\\ProductDTO2.cs*",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\ProductDTO2.cs",
+              "RelativeToolTip": "Section11.Projections\\DTOs\\ProductDTO2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T19:17:24.813Z",
@@ -59,12 +93,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\ProductDTO.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DTOs\\ProductDTO.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\ProductDTO.cs*",
-              "RelativeToolTip": "Section11.Projections\\DTOs\\ProductDTO.cs*",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "Section11.Projections\\DTOs\\ProductDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T19:05:46.286Z",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ProductFeature.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DAL\\ProductFeature.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DAL\\ProductFeature.cs",
@@ -80,23 +114,25 @@
               "RelativeToolTip": "Section11.Projections\\DAL\\ProductFeature.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:08:07.326Z"
+              "WhenOpened": "2024-08-01T14:08:07.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DAL\\Product.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DAL\\Product.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DAL\\Product.cs",
               "RelativeToolTip": "Section11.Projections\\DAL\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:08:01.246Z"
+              "WhenOpened": "2024-08-01T14:08:01.246Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Initializer.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DAL\\Initializer.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DAL\\Initializer.cs",
@@ -104,11 +140,12 @@
               "RelativeToolTip": "Section11.Projections\\DAL\\Initializer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:07:55.991Z"
+              "WhenOpened": "2024-08-01T14:07:55.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DAL\\Category.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DAL\\Category.cs",
@@ -116,11 +153,12 @@
               "RelativeToolTip": "Section11.Projections\\DAL\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:07:49.47Z"
+              "WhenOpened": "2024-08-01T14:07:49.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Section11.Projections\\DAL\\AppDbContext.cs",
@@ -128,7 +166,8 @@
               "RelativeToolTip": "Section11.Projections\\DAL\\AppDbContext.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T14:07:17.807Z"
+              "WhenOpened": "2024-08-01T14:07:17.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,7 +177,7 @@
               "RelativeDocumentMoniker": "Section11.Projections\\Program.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section11.Projections\\Program.cs*",
               "RelativeToolTip": "Section11.Projections\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T14:03:39.705Z",
               "EditorCaption": ""
