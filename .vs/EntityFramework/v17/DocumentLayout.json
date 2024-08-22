@@ -66,9 +66,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs",
               "RelativeDocumentMoniker": "Section12.Transactions\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs",
-              "RelativeToolTip": "Section12.Transactions\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABaAAAA",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs*",
+              "RelativeToolTip": "Section12.Transactions\\Program.cs*",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T20:04:43.488Z",
               "EditorCaption": ""
@@ -93,9 +93,10 @@
               "RelativeDocumentMoniker": "Section12.Transactions\\DAL\\AppDbContext.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Section12.Transactions\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwAgAAAAgAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T20:05:22.554Z"
+              "WhenOpened": "2024-08-19T20:05:22.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

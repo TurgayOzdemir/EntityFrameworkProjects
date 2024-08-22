@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,17 @@ namespace Section12.Transactions.DAL
 {
     public class AppDbContext : DbContext
     {
+        private DbConnection _connection;
+
+        public AppDbContext(DbConnection connection)
+        {
+            _connection = connection;
+        }
+        public AppDbContext()
+        {
+            
+        }
+
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductFeature> ProductFeatures { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -17,8 +29,15 @@ namespace Section12.Transactions.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            Initializer.Build();
-            optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"));
+            if (_connection is default(DbConnection))
+            {
+                Initializer.Build();
+                optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlCon"));
+            }
+            else
+            {
+                optionsBuilder.UseSqlServer(_connection);
+            }    
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
