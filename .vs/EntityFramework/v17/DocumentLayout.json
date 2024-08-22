@@ -34,32 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductFeature.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\ProductFeature.cs",
-              "RelativeDocumentMoniker": "Section12.Transactions\\DAL\\ProductFeature.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\ProductFeature.cs",
-              "RelativeToolTip": "Section12.Transactions\\DAL\\ProductFeature.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T20:05:53.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\Product.cs",
-              "RelativeDocumentMoniker": "Section12.Transactions\\DAL\\Product.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\Product.cs",
-              "RelativeToolTip": "Section12.Transactions\\DAL\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T20:05:49.323Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -86,6 +62,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs",
+              "RelativeDocumentMoniker": "Section12.Transactions\\Program.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs",
+              "RelativeToolTip": "Section12.Transactions\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:04:43.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\Product.cs",
+              "RelativeDocumentMoniker": "Section12.Transactions\\DAL\\Product.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\Product.cs",
+              "RelativeToolTip": "Section12.Transactions\\DAL\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:05:49.323Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\AppDbContext.cs",
@@ -94,21 +95,19 @@
               "RelativeToolTip": "Section12.Transactions\\DAL\\AppDbContext.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAwwAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T20:05:22.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T20:05:22.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs",
-              "RelativeDocumentMoniker": "Section12.Transactions\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\Program.cs*",
-              "RelativeToolTip": "Section12.Transactions\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "ProductFeature.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\ProductFeature.cs",
+              "RelativeDocumentMoniker": "Section12.Transactions\\DAL\\ProductFeature.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section12.Transactions\\DAL\\ProductFeature.cs",
+              "RelativeToolTip": "Section12.Transactions\\DAL\\ProductFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T20:04:43.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T20:05:53.194Z"
             }
           ]
         }
