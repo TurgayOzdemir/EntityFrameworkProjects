@@ -5,6 +5,20 @@ using Section13.Isolation.DAL;
 using (var _context = new AppDbContext())
 {
 
+    using (var transaction = _context.Database.BeginTransaction(System.Data.IsolationLevel.ReadCommitted))
+    {
+        var product = _context.Products.First();
+        product.Price = 1000;
+        _context.SaveChanges();
+
+        transaction.Commit();
+    }
+
+
+    //------------------------------------------------------------------------
+
+
+    /*
     using (var transaction = _context.Database.BeginTransaction(System.Data.IsolationLevel.ReadUncommitted))
     {
         var product = _context.Products.First();
@@ -14,5 +28,5 @@ using (var _context = new AppDbContext())
         transaction.Commit();
         Console.WriteLine();
     }
-
+    */
 }
