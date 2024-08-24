@@ -46,8 +46,7 @@
               "RelativeToolTip": "Section13.Isolation\\DAL\\ProductFeature.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:28.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T08:41:28.288Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Section13.Isolation\\DAL\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:24.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T08:41:24.123Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Section13.Isolation\\DAL\\Initializer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:19.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T08:41:19.67Z"
             },
             {
               "$type": "Document",
@@ -83,7 +80,7 @@
               "RelativeDocumentMoniker": "Section13.Isolation\\Program.cs",
               "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\Program.cs",
               "RelativeToolTip": "Section13.Isolation\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T08:38:32.821Z",
               "EditorCaption": ""
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Section13.Isolation\\DAL\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:15.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T08:41:15.161Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Section13.Isolation\\DAL\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:40:38.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T08:40:38.326Z"
             }
           ]
         }
