@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\ASP Project\\EntityFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|d:\\asp project\\entityframework\\section13.isolation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|solutionrelative:section13.isolation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|d:\\asp project\\entityframework\\section14.concurrency.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|solutionrelative:section14.concurrency.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|d:\\asp project\\entityframework\\section13.isolation\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|solutionrelative:section13.isolation\\dal\\productfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|d:\\asp project\\entityframework\\section14.concurrency.web\\views\\products\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|solutionrelative:section14.concurrency.web\\views\\products\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|d:\\asp project\\entityframework\\section13.isolation\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|solutionrelative:section13.isolation\\dal\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|d:\\asp project\\entityframework\\section14.concurrency.web\\views\\products\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|solutionrelative:section14.concurrency.web\\views\\products\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|d:\\asp project\\entityframework\\section13.isolation\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|solutionrelative:section13.isolation\\dal\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|d:\\asp project\\entityframework\\section14.concurrency.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|solutionrelative:section14.concurrency.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|d:\\asp project\\entityframework\\section13.isolation\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|solutionrelative:section13.isolation\\dal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|d:\\asp project\\entityframework\\section13.isolation\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E2ECEA3-2385-4BBA-B109-E770432EA89D}|Section13.Isolation\\Section13.Isolation.csproj|solutionrelative:section13.isolation\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|d:\\asp project\\entityframework\\section14.concurrency.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C32E85-95AE-4988-8F23-D9F0AE255931}|Section14.Concurrency.Web\\Section14.Concurrency.Web.csproj|solutionrelative:section14.concurrency.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductFeature.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\ProductFeature.cs",
-              "RelativeDocumentMoniker": "Section13.Isolation\\DAL\\ProductFeature.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\ProductFeature.cs",
-              "RelativeToolTip": "Section13.Isolation\\DAL\\ProductFeature.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:28.288Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\Product.cs",
-              "RelativeDocumentMoniker": "Section13.Isolation\\DAL\\Product.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\Product.cs",
-              "RelativeToolTip": "Section13.Isolation\\DAL\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:24.123Z"
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Views\\Products\\List.cshtml",
+              "RelativeDocumentMoniker": "Section14.Concurrency.Web\\Views\\Products\\List.cshtml",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Views\\Products\\List.cshtml",
+              "RelativeToolTip": "Section14.Concurrency.Web\\Views\\Products\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T15:36:13.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Initializer.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\Initializer.cs",
-              "RelativeDocumentMoniker": "Section13.Isolation\\DAL\\Initializer.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\Initializer.cs",
-              "RelativeToolTip": "Section13.Isolation\\DAL\\Initializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:19.67Z"
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Views\\Products\\Update.cshtml",
+              "RelativeDocumentMoniker": "Section14.Concurrency.Web\\Views\\Products\\Update.cshtml",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Views\\Products\\Update.cshtml",
+              "RelativeToolTip": "Section14.Concurrency.Web\\Views\\Products\\Update.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T15:31:18.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\Program.cs",
-              "RelativeDocumentMoniker": "Section13.Isolation\\Program.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\Program.cs",
-              "RelativeToolTip": "Section13.Isolation\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Section14.Concurrency.Web\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Section14.Concurrency.Web\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwDAAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:38:32.821Z",
+              "WhenOpened": "2024-08-24T15:27:56.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\Category.cs",
-              "RelativeDocumentMoniker": "Section13.Isolation\\DAL\\Category.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\Category.cs",
-              "RelativeToolTip": "Section13.Isolation\\DAL\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Section14.Concurrency.Web\\Program.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Program.cs",
+              "RelativeToolTip": "Section14.Concurrency.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:41:15.161Z"
+              "WhenOpened": "2024-08-24T15:17:53.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Section13.Isolation\\DAL\\AppDbContext.cs",
-              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section13.Isolation\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "Section13.Isolation\\DAL\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Section14.Concurrency.Web\\Models\\Product.cs",
+              "ToolTip": "D:\\ASP Project\\EntityFramework\\Section14.Concurrency.Web\\Models\\Product.cs",
+              "RelativeToolTip": "Section14.Concurrency.Web\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:40:38.326Z"
+              "WhenOpened": "2024-08-24T15:13:43.51Z",
+              "EditorCaption": ""
             }
           ]
         }
